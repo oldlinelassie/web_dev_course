@@ -1,0 +1,122 @@
+html {
+	background-image: url('brushed_alu_dark.png');
+	background-attachment: fixed;
+	padding: 60px;
+}
+
+header {
+	font-size: 100%;
+	border-bottom: 5px solid #cccccc;
+	margin-bottom: 20px;
+}
+
+body {
+	background: #ffffff;
+	font-family: 'PT Serif', serif;
+	font-size: 100%;
+	color: #333333;
+	width: 90%;
+	padding: 60px;
+	margin: 40px auto;
+}
+
+a:link {color: black;
+		text-decoration: none;
+}
+
+a:visited {color: black;
+}
+
+a:hover {color: #3388cc;
+}
+
+a:focus {color: #3388cc;
+}
+
+a:active {color: black;
+}
+
+/*
+main {display: block;
+	float: right;
+	width: 65%;
+}
+
+nav {display: block;
+	float: left;
+	width: 30%;
+}
+*/
+nav ul {list-style: none;
+		margin: 0;
+		padding: 10px 10px 0px;
+		background-color: #cccccc;
+		font-size: 120%;
+}
+nav li {display: inline-block;
+		width: 24.6%;
+		text-align: center;
+		font-size: 120%;
+
+}
+nav a {text-decoration: none;
+		display: block;
+		padding: 5px;
+}
+
+nav a:link {background-color: rgba(255,255,255,0.5);
+}
+nav a:visited {background-color: rgba(255,255,255,0.5);
+}
+nav a:hover {background-color: rgba(255,255,255,0.75);
+}
+nav a:focus {background-color: rgba(255,255,255,0.75);
+}
+nav a:active, nav a.current {background-color: white;
+}
+main nav ul {list-style: none;
+		margin: 0;
+		padding: 10px 10px 0px;
+		background-color: #ffffff;
+		font-size: 90%;
+	}
+main nav li {display: inline-block;
+		width: 3.4%;
+		text-align: center;
+}
+main nav a {text-decoration: none;
+		display: block;
+		padding: 5px;}
+
+main nav a:link {background-color: rgba(255,255,255,0.5);
+}
+main nav a:visited {background-color: rgba(255,255,255,0.5);
+}
+main nav a:hover {background-color: rgba(255,255,255,0.75);
+}
+main nav a:focus {background-color: rgba(255,255,255,0.75);
+}
+main nav a:active, nav a.current {background-color: white;
+}
+/* Hide visually but available to screenreaders.*/
+div {
+font-size: 100%;
+background-color: #cccccc;
+border: 0;
+clip: rect(0 0 0 0);
+height: 1px;
+margin: -1px;
+overflow: hidden;
+padding: 0px 0px 0px 5%;
+position: absolute;
+width: 1px;
+}
+
+/* Override previous styles if target is selected.*/
+div:target {
+  width: auto;
+  position:inherit;
+  overflow:auto;
+  height: auto;
+  clip: none;
+}
